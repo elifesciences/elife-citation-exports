@@ -6,5 +6,13 @@
     ],
     "xpath": "//*[@class=\"aff\"]",
     "string": "Department of Biomedicine, Aarhus University, Aarhus, Denmark"
+  },
+  {
+    "method": "getAuthorAffiliation",
+    "arguments": [
+      "3"
+    ],
+    "xpath": "//*[@class=\"aff\"]",
+    "string": "For correspondence: giehm@hum-gen.au.dk"
   }
 ]
