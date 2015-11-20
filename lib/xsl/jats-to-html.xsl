@@ -1745,6 +1745,12 @@
         </sub>
     </xsl:template>
 
+    <xsl:template match="disp-quote">
+        <blockquote class="disp-quote">
+            <xsl:apply-templates/>
+        </blockquote>
+    </xsl:template>
+    
     <!-- END - general format -->
 
     <xsl:template match="sub-article//title-group | sub-article/front-stub | fn-group[@content-type='competing-interest']/fn/p">
