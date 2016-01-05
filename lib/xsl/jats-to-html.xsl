@@ -485,9 +485,7 @@
 
     <xsl:template match="author-notes/fn[@fn-type='con']">
         <section class="equal-contrib">
-            <h4 class="equal-contrib-label">
-                <xsl:apply-templates/>
-            </h4>
+                <xsl:apply-templates/>:
             <xsl:variable name="contriputeid">
                 <xsl:value-of select="@id"/>
             </xsl:variable>
